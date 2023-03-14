@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-area {
+    padding-top: 10px;
+    overflow: hidden;
+}
+.logo {
+    float: left;
+    align-items: center;
+}
+.fix {
+    overflow: hidden;
+}
+.container {
+    width: 1200px;
+    margin: auto;
+}
+.menu {
+    float: right;
+    vertical-align: middle;
+    bottom: 0;
+}
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li {
+    float: left;
+}
+.menu ul li a {
+    text-decoration: none;
+    background-color: #000;
+    padding: 10px 20px;
+    display: block;
+    align-items: center;
+    margin-left: 10px;
+    transition: .6s;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'tahoma';
+    border-radius: 3px;
+}
+.menu ul li a:hover {
+    background-color: red;
+    color: #000;
+}
+
+/***slider area start here***/
+.banner {
+    position: relative;
+}
+.banner a::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+    opacity: 0.3;
+}
+.banner a img {
+    width: 100%;
+    display: inline-block;
+}
+
+.content {
+    content: '';
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+.content h2 {
+    color: white;
+    text-align: center;
+    padding-top: 25%;
+}
+.content p {
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    height: 100vh;
+}
+
+/****service area start here****/
+.our-service {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+.service-title {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: 'poppins';
+    
+}
+.service {
+    width: 33%;
+    float: left;
+    display: block;
+    border: 1px solid #000;
+    margin-right: 15px;
+}
+.service1 {
+    width: 33%;
+    display: block;
+    float: left;
+    border: 1px solid #000;
+    margin-right: 15px;
+}
+.service2 {
+    overflow: hidden;
+    border: 1px solid #000;
+}
